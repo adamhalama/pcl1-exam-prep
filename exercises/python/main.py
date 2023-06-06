@@ -3,11 +3,43 @@ import math
 print("hello World")
 
 
+
+""" 
+Create a Virtual Environment (Optional): Creating a virtual environment for your project can help you manage dependencies and ensure that your project runs in a consistent environment. Here's how you can do it:
+
+Open the Terminal in VS Code (View > Terminal).
+
+Navigate to your project directory if you're not already there.
+
+Run the following commands to create a new virtual environment (replace env with your desired environment name):
+
+bash
+Copy code
+python -m venv env
+Once the virtual environment is created, activate it. On Windows, run:
+
+bash
+Copy code
+.\env\Scripts\activate
+On macOS/Linux, run:
+
+bash
+Copy code
+source env/bin/activate
+Create a New Python File: Go to File > New File to create a new Python file. Don't forget to save it with a .py extension.
+
+Install Required Packages: If your project requires any Python packages, you can install them with pip. In the Terminal (make sure your virtual environment is activated), run:
+
+go
+Copy code
+pip install package-name 
+"""
+
 #  Exercise 8.1 – Iteration
 #  Python provides for and while loop that enable us to repeat blocks of instructions several times. For example to write “Python is cool” 5 times:
-# print("This program prints a string 5 times")
-# for count in range(5):
-#      print("Python is cool")
+print("This program prints a string 5 times")
+for count in range(5):
+     print("Python is cool")
 
 
 #  a. Write a program that will print your full name and student number 10 times.
@@ -16,30 +48,30 @@ print("hello World")
 
 
 # a
-# for count in range(10):
-#      print("Adam 304130")
+for count in range(10):
+     print("Adam 304130")
 
-""" wish = input("What do you wish for on  your birthday?: ")
+wish = input("What do you wish for on  your birthday?: ")
 repeat = input("How many times do you want your wish to be displayed?: ")
 
 
 for count in range(int(repeat)):
      print(wish)
-     print(count) """
+     print(count)
 
 # Exercise 8.2 – Sum
 # Exercise 8.2 – Sum
 # Given numLst = [1, 2, 3, 4, 5] we can compute the sumImperative in an imperative way.
 # You have to implement it such that it uses imperative way to compute the sum of the list.
 
-""" def sumImperative(list):
+def sumImperative(list):
     sum = 0
     for number in list:
         sum = sum+number
     return sum
 
 numLst = [1, 2, 3, 4, 5]
-print(sumImperative(numLst)) """
+print(sumImperative(numLst))
 
 
 # Exercise 8.3 – Even numbers
@@ -86,12 +118,12 @@ def groupList(list, gLength):
     return resList
 
 
-# list = [1, 2,3,4,5,6]
-# res1 = groupList(list, 2) # gives [ [1, 2], [3, 4], [5,6] ]
-# print(res1)
+list = [1, 2,3,4,5,6]
+res1 = groupList(list, 2) # gives [ [1, 2], [3, 4], [5,6] ]
+print(res1)
 
-# res2 = groupList(list, 3) # gives [ [1, 2, 3], [4, 5, 6] ]
-# print(res2)
+res2 = groupList(list, 3) # gives [ [1, 2, 3], [4, 5, 6] ]
+print(res2)
 
 # Exercise 8.5 – Dictionaries
 # Create a dictionary specialle which stores software engineering specializations:
