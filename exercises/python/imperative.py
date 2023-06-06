@@ -78,7 +78,7 @@ def evenNumbers():
         else:
             print("Bye for now!")
 
-# evenNumbers()
+evenNumbers()
 
 
 # Exercise 8.4 – Lists
@@ -94,12 +94,11 @@ def groupList(list, gLength):
 
     numOfLists = int(math.ceil(len(list) / gLength))
     resList = np.empty((numOfLists, gLength))
-
     counter = 0
+    
     for i in range(numOfLists):
         for j in range(gLength):
-            if len(list) > 0:
-                print(i, j)
+            if len(list) > counter:
                 resList[i][j] = list[counter]
                 counter = counter+1
 
