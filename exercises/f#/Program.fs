@@ -1,4 +1,4 @@
-﻿// Starting up a new f# project:
+﻿    // Starting up a new f# project:
 
 // Open VS Code Terminal or your preferred command-line interface.
 // Navigate to the directory where you want to create your project.

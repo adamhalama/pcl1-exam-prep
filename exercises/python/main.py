@@ -12,26 +12,14 @@ Open the Terminal in VS Code (View > Terminal).
 Navigate to your project directory if you're not already there.
 
 Run the following commands to create a new virtual environment (replace env with your desired environment name):
-
-bash
-Copy code
 python -m venv env
-Once the virtual environment is created, activate it. On Windows, run:
 
-bash
-Copy code
-.\env\Scripts\activate
+Once the virtual environment is created, activate it. 
 On macOS/Linux, run:
-
-bash
-Copy code
 source env/bin/activate
-Create a New Python File: Go to File > New File to create a new Python file. Don't forget to save it with a .py extension.
 
-Install Required Packages: If your project requires any Python packages, you can install them with pip. In the Terminal (make sure your virtual environment is activated), run:
-
-go
-Copy code
+Install Required Packages: If your project requires any Python packages, you can install them with pip. 
+In the Terminal (make sure your virtual environment is activated), run:
 pip install package-name 
 """
 
